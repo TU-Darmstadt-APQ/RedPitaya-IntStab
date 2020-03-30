@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BUF634
+D 250mA, High-Speed Buffer
+$ENDCMP
+#
+$CMP OPA1602
+D Dual Power Op amp
+K ampliop Power OpAMP
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/02/9c/bc/75/59/9c/47/bd/CD00000054.pdf/files/CD00000054.pdf/jcr:content/translations/en.CD00000054.pdf
+$ENDCMP
+#
+$CMP OPA1604
+D Quad Op amp.
+K AmpliOp
+$ENDCMP
+#
+#End Doc Library

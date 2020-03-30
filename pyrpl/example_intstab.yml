@@ -1,0 +1,114 @@
+pyrpl:
+  background_color: ''
+  dock_positions: "\0\0\0\xFF\0\0\0\0\xFD\0\0\0\x01\0\0\0\x02\0\0\a\x80\0\0\x03\xD0\
+    \xFC\x01\0\0\0\x02\xFC\0\0\0\0\0\0\x03u\0\0\0]\0\xFF\xFF\xFF\xFA\0\0\0\x02\x01\
+    \0\0\0\v\xFB\0\0\0*\0a\0s\0g\0s\0 \0(\0c\0o\0o\0l\0e\0r\0_\0i\0n\0t\0s\0t\0a\0\
+    b\0)\0\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0\x16\0\xFF\xFF\xFF\xFB\0\0\0(\0i\0q\0s\0 \0\
+    (\0c\0o\0o\0l\0e\0r\0_\0i\0n\0t\0s\0t\0a\0b\0)\0\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0\
+    \x16\0\xFF\xFF\xFF\xFB\0\0\0*\0p\0i\0d\0s\0 \0(\0c\0o\0o\0l\0e\0r\0_\0i\0n\0t\0\
+    s\0t\0a\0b\0)\x01\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0]\0\xFF\xFF\xFF\xFB\0\0\0*\0i\0\
+    i\0r\0s\0 \0(\0c\0o\0o\0l\0e\0r\0_\0i\0n\0t\0s\0t\0a\0b\0)\0\0\0\0\0\xFF\xFF\xFF\
+    \xFF\0\0\0\x16\0\xFF\xFF\xFF\xFB\0\0\0,\0t\0r\0i\0g\0s\0 \0(\0c\0o\0o\0l\0e\0\
+    r\0_\0i\0n\0t\0s\0t\0a\0b\0)\0\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0\x16\0\xFF\xFF\xFF\
+    \xFB\0\0\0@\0n\0e\0t\0w\0o\0r\0k\0a\0n\0a\0l\0y\0z\0e\0r\0 \0(\0c\0o\0o\0l\0e\0\
+    r\0_\0i\0n\0t\0s\0t\0a\0b\0)\0\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0\x16\0\xFF\xFF\xFF\
+    \xFB\0\0\0B\0s\0p\0e\0c\0t\0r\0u\0m\0a\0n\0a\0l\0y\0z\0e\0r\0 \0(\0c\0o\0o\0l\0\
+    e\0r\0_\0i\0n\0t\0s\0t\0a\0b\0)\0\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0\x16\0\xFF\xFF\xFF\
+    \xFB\0\0\08\0c\0u\0r\0v\0e\0v\0i\0e\0w\0e\0r\0 \0(\0c\0o\0o\0l\0e\0r\0_\0i\0n\0\
+    t\0s\0t\0a\0b\0)\0\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0\x16\0\xFF\xFF\xFF\xFB\0\0\08\0\
+    p\0y\0r\0p\0l\0c\0o\0n\0f\0i\0g\0 \0(\0c\0o\0o\0l\0e\0r\0_\0i\0n\0t\0s\0t\0a\0\
+    b\0)\0\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0\x16\0\xFF\xFF\xFF\xFB\0\0\00\0l\0o\0c\0k\0\
+    b\0o\0x\0 \0(\0c\0o\0o\0l\0e\0r\0_\0i\0n\0t\0s\0t\0a\0b\0)\0\0\0\0\0\xFF\xFF\xFF\
+    \xFF\0\0\0\x16\0\xFF\xFF\xFF\xFB\0\0\00\0l\0o\0c\0k\0b\0o\0x\0 \0(\0c\0o\0o\0\
+    l\0e\0r\0_\0i\0n\0t\0s\0t\0a\0b\0)\0\0\0\0\0\xFF\xFF\xFF\xFF\0\0\0\0\0\0\0\0\xFB\
+    \0\0\0.\0s\0c\0o\0p\0e\0s\0 \0(\0c\0o\0o\0l\0e\0r\0_\0i\0n\0t\0s\0t\0a\0b\0)\x01\
+    \0\0\x03y\0\0\x04\a\0\0\0]\0\xFF\xFF\xFF\0\0\a\x80\0\0\0\0\0\0\0\x04\0\0\0\x04\
+    \0\0\0\b\0\0\0\b\xFC\0\0\0\0"
+  gui: true
+  loglevel: info
+  modules:
+  - NetworkAnalyzer
+  - SpectrumAnalyzer
+  - CurveViewer
+  - PyrplConfig
+  - Lockbox
+  name: cooler_intstab
+  window_position:
+  - -8
+  - -8
+  - 1920
+  - 1017
+redpitaya:
+  autostart: true
+  delay: 0.05
+  frequency_correction: 1.0
+  hostname: _FAKE_
+  leds_off: true
+  monitor_server_name: monitor_server
+  password: root
+  port: 2222
+  reloadfpga: true
+  reloadserver: false
+  serverbinfilename: fpga.bin
+  serverdirname: //opt//pyrpl//
+  silence_env: false
+  sshport: 22
+  timeout: 1
+  user: root
+scope:
+  curve_name: scope curve
+  duration: 0.268435456
+  running_state: running_continuous
+  ch1_active: true
+  input2: in2
+  input1: in1
+networkanalyzer:
+  curve_name: networkanalyzer curve
+spectrumanalyzer:
+  curve_name: spectrumanalyzer curve
+lockbox:
+  classname: HighFinesseFabryPerot
+  outputs:
+    output1:
+      assisted_design: true
+      i: 100.0
+      output_channel: pwm0
+      p: 0.0
+    output2:
+      assisted_design: true
+      i: 100.0
+      output_channel: pwm0
+      p: 0.0
+    piezo:
+      assisted_design: true
+      i: 100.0
+      p: 0.0
+  sequence:
+  - outputs: {}
+asg0:
+  waveform: dc
+  amplitude: 0.0
+  output_direct: 'off'
+  offset: -1.0
+pid0:
+  output_direct: out1
+  p: 0.0
+  i: -3000.000880930907
+  setpoint: 0.0
+  min_voltage: -1.0
+  max_voltage: 0.9998779296875
+pid2:
+  output_direct: 'off'
+pid1:
+  output_direct: out2
+  input: in2
+  p: 0.0
+  i: -3885.800302953896
+  setpoint: 0.0
+  min_voltage: -1.0
+  max_voltage: 0.9998779296875
+asg1:
+  amplitude: 0.0
+  offset: -0.91
+  output_direct: 'off'
+  waveform: dc
