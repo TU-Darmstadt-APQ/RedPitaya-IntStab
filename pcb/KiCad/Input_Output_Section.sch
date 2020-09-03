@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:RedPitaya_IntStab-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title "Input/Output Section"
+Title "RedPitaya IntStab: Input/Output Section"
 Date "2019-09-23"
 Rev "1.3.1"
-Comp "APQ"
+Comp "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
 Comment3 ""

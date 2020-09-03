@@ -25,6 +25,7 @@ Related Work
 --------------------
 Review of Scientific Instruments 91, 083001 (2020); [https://doi.org/10.1063/5.0009524](https://doi.org/10.1063/5.0009524)
 
+arXiv:2009.00343 [physics.ins-det]; [https://arxiv.org/abs/2009.00343](https://arxiv.org/abs/2009.00343)
 
 Requirements
 --------------
