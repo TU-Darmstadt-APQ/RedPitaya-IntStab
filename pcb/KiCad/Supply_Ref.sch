@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "RedPitaya IntStab: +/-12V,+5V Supply"
-Date "2019-09-23"
-Rev "1.3.1"
+Date "2020-09-08"
+Rev "1.3.2"
 Comp "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
