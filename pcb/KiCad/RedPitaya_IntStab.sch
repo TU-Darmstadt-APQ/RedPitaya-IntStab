@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "RedPitaya IntStab"
-Date "2020-09-08"
-Rev "1.3.2"
+Date "2020-09-28"
+Rev "1.4"
 Comp "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
@@ -87,7 +87,7 @@ F 2 "custom:Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows" H 1000 4200 50  0001 C C
 F 3 "" H 1000 4200 50  0001 C CNN
 F 4 "DNF" H 1000 4200 50  0001 C CNN "Config"
 F 5 "Harting" H 1000 4200 50  0001 C CNN "MFN"
-F 6 "09 03 164 2919" H 1000 4200 50  0001 C CNN "MFP"
+F 6 "09 03 164 2919" H 1000 4200 50  0001 C CNN "PN"
 	1    1000 4200
 	-1   0    0    -1  
 $EndComp
@@ -154,7 +154,9 @@ F 0 "J4" H 8300 1300 50  0000 C CNN
 F 1 "Hold_1" V 8400 1150 50  0000 C CNN
 F 2 "Connectors:SMA_THT_Jack_Straight" H 8300 1150 50  0001 C CNN
 F 3 "" H 8300 1150 50  0001 C CNN
-F 4 "DNF" H 8300 1150 50  0001 C CNN "Config"
+F 4 "" H 8300 1150 50  0001 C CNN "Config"
+F 5 "Amphenol" H 8300 1150 50  0001 C CNN "MFN"
+F 6 "901-144-8RFX" H 8300 1150 50  0001 C CNN "PN"
 	1    8300 1150
 	-1   0    0    -1  
 $EndComp
@@ -167,7 +169,7 @@ F 1 "2k" H 9130 1260 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 9100 1300 50  0001 C CNN
 F 3 "" H 9100 1300 50  0001 C CNN
 F 4 "Susumu" H 9100 1300 50  0001 C CNN "MFN"
-F 5 "RR0816P-202-D" H 9100 1300 50  0001 C CNN "MFP"
+F 5 "RR0816P-202-D" H 9100 1300 50  0001 C CNN "PN"
 	1    9100 1300
 	1    0    0    -1  
 $EndComp
@@ -198,7 +200,9 @@ F 0 "J16" H 8300 2000 50  0000 C CNN
 F 1 "Hold_2" V 8400 1850 50  0000 C CNN
 F 2 "Connectors:SMA_THT_Jack_Straight" H 8300 1850 50  0001 C CNN
 F 3 "" H 8300 1850 50  0001 C CNN
-F 4 "DNF" H 8300 1850 50  0001 C CNN "Config"
+F 4 "" H 8300 1850 50  0001 C CNN "Config"
+F 5 "Amphenol" H 8300 1850 50  0001 C CNN "MFN"
+F 6 "901-144-8RFX" H 8300 1850 50  0001 C CNN "PN"
 	1    8300 1850
 	-1   0    0    -1  
 $EndComp
@@ -211,7 +215,7 @@ F 1 "2k" H 9130 1960 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 9100 2000 50  0001 C CNN
 F 3 "" H 9100 2000 50  0001 C CNN
 F 4 "Susumu" H 9100 2000 50  0001 C CNN "MFN"
-F 5 "RR0816P-202-D" H 9100 2000 50  0001 C CNN "MFP"
+F 5 "RR0816P-202-D" H 9100 2000 50  0001 C CNN "PN"
 	1    9100 2000
 	1    0    0    -1  
 $EndComp
@@ -245,8 +249,8 @@ F 1 "RedPitaya_125-14" H 10150 1200 50  0000 C CNN
 F 2 "custom:RedPitaya_125-14" H 10550 2600 50  0001 C CNN
 F 3 "" H 10550 2600 50  0001 C CNN
 F 4 "Samtec" H 10100 2400 60  0001 C CNN "MFN"
-F 5 "ESQ-113-44-T-D" H 10100 2400 50  0001 C CNN "MFP"
-F 6 "DNF" H 10100 2400 50  0001 C CNN "Config"
+F 5 "" H 10100 2400 50  0001 C CNN "Config"
+F 6 "ESQ-113-44-T-D" H 10100 2400 50  0001 C CNN "PN"
 	1    10100 2400
 	1    0    0    -1  
 $EndComp
@@ -259,7 +263,7 @@ F 1 "1k" H 8730 1110 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 8700 1150 50  0001 C CNN
 F 3 "" H 8700 1150 50  0001 C CNN
 F 4 "Susumu" H 8700 1150 50  0001 C CNN "MFN"
-F 5 "RR0816P-102-D" H 8700 1150 50  0001 C CNN "MFP"
+F 5 "RR0816P-102-D" H 8700 1150 50  0001 C CNN "PN"
 	1    8700 1150
 	0    1    1    0   
 $EndComp
@@ -272,7 +276,7 @@ F 1 "1k" H 8730 1810 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 8700 1850 50  0001 C CNN
 F 3 "" H 8700 1850 50  0001 C CNN
 F 4 "Susumu" H 8700 1850 50  0001 C CNN "MFN"
-F 5 "RR0816P-102-D" H 8700 1850 50  0001 C CNN "MFP"
+F 5 "RR0816P-102-D" H 8700 1850 50  0001 C CNN "PN"
 	1    8700 1850
 	0    1    1    0   
 $EndComp
@@ -458,4 +462,64 @@ Wire Wire Line
 	8300 2050 8300 2150
 Wire Wire Line
 	8300 2150 9100 2150
+$Comp
+L Custom_logos:Logo_APQ #LOGO1
+U 1 1 5F7250BD
+P 6850 6750
+F 0 "#LOGO1" H 7100 7025 50  0001 C CNN
+F 1 "Logo_APQ" H 7100 6500 50  0001 C CNN
+F 2 "custom:APQ-Logo" H 7150 6750 50  0001 C CNN
+F 3 "~" H 7150 6750 50  0001 C CNN
+F 4 "DNF" H 6850 6750 50  0001 C CNN "Config"
+	1    6850 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO3
+U 1 1 5F725B74
+P 10950 6800
+F 0 "#LOGO3" H 10950 7075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10950 6575 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 10950 6800 50  0001 C CNN
+F 3 "~" H 10950 6800 50  0001 C CNN
+F 4 "DNF" H 10950 6800 50  0001 C CNN "Config"
+	1    10950 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_logos:Logo_ROHS #LOGO2
+U 1 1 5F726293
+P 9800 6800
+F 0 "#LOGO2" H 10050 7075 50  0001 C CNN
+F 1 "Logo_ROHS" H 10050 6550 50  0001 C CNN
+F 2 "Symbol:RoHS-Logo_6mm_SilkScreen" H 10325 6979 50  0001 C CNN
+F 3 "~" H 10100 6800 50  0001 C CNN
+F 4 "DNF" H 9800 6800 50  0001 C CNN "Config"
+	1    9800 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F72893C
+P 10150 5000
+F 0 "H1" H 10250 5046 50  0000 L CNN
+F 1 "MountingHole" H 10250 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 10150 5000 50  0001 C CNN
+F 3 "~" H 10150 5000 50  0001 C CNN
+F 4 "DNF" H 10150 5000 50  0001 C CNN "Config"
+	1    10150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F728BB2
+P 10150 5300
+F 0 "H2" H 10250 5346 50  0000 L CNN
+F 1 "MountingHole" H 10250 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 10150 5300 50  0001 C CNN
+F 3 "~" H 10150 5300 50  0001 C CNN
+F 4 "DNF" H 10150 5300 50  0001 C CNN "Config"
+	1    10150 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
