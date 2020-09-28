@@ -33,19 +33,3 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 32,,LT8610,U9,LT8610,MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm,1,,Analog Devices,LT8610EMSE#PBF,
 33,Dual Power Op amp,OPA1602,U2 U5,OPA1602,SOIC-8_3.9x4.9mm_P1.27mm,2,http://www.st.com/content/ccc/resource/technical/document/datasheet/02/9c/bc/75/59/9c/47/bd/CD00000054.pdf/files/CD00000054.pdf/jcr:content/translations/en.CD00000054.pdf,Texas Instruments,OPA1602AIDR,
 34,Quad Op amp.,OPA1604,U3 U4,OPA1604,SOIC-14_3.9x8.7mm_P1.27mm,2,,Texas Instruments,OPA1604AIDR,
-
-
-
-
-
-Component Groups:,34
-Component Count:,100
-Fitted Components:,93
-Number of PCBs:,1
-Total components:,93
-Schematic Version:,1.4
-Schematic Date:,2020-09-28
-PCB Variant:,"""default"""
-BoM Date:,28.09.2020 23:40:18
-Schematic Source:,C:\Users\Tilman Preuschoff\Documents\GitHub\RedPitaya-IntStab\pcb\KiCad\RedPitaya_IntStab.sch
-KiCad Version:,Eeschema (5.1.5)-3
