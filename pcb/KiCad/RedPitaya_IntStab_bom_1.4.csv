@@ -1,35 +1,35 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,PN,Config
-1,"Unpolarized capacitor, small symbol",C_Small,C7 C8 C9 C10 C11 C12 C14 C15 C31,100n,C_0603,9,,Wurth Electronics,885012206071,
-2,"Unpolarized capacitor, small symbol",C_Small,C3 C4 C29,10n,C_0603,3,,TDK,CGA3E2C0G1H103J080AA,
-3,"Unpolarized capacitor, small symbol",C_Small,C32,10p,C_0603,1,,Wurth Electronics,885012006051,
-4,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C5 C6,10u,C_1210,4,,Murata,GCM32EL8EH106KA07L,
-5,"Unpolarized capacitor, small symbol",C_Small,C30,1u,C_0805,1,,Taiyo Yuden,UMK212B7105KG-T,
-6,"Unpolarized capacitor, small symbol",C_Small,C13 C16,33p (C0G),C_0603,2,,Yageo,CC0603GRNPO9BN330,
-7,"Unpolarized capacitor, small symbol",C_Small,C26 C27 C28,4.7u,C_0805,3,,Taiyo Yuden,UMK212BBJ475KG-T,
-8,"Unpolarized capacitor, small symbol",C_Small,C33,47u,C_1210,1,,Taiyo Yuden,EMK325BJ476MM-P,
-9,"Connector Europe 64 contacts, ranges A,B,C",C64AC,J1,C64AC,Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows,1 (DNF),,Harting,09 03 164 2919,DNF
-10,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3 J4 J5 J6 J7 J8 J9 J10 J11 J12 J13 J14 J15 J16 J17 J18,PD_In_1,SMA_THT_Jack_Straight,16,,Amphenol,901-144-8RFX,
-11,One-piece EMI RF shielding cabinet,RF_Shield_One_Piece,J2,RF_Shield_One_Piece DNF,Laird_Technologies_BMI-S-107_44.37x44.37mm,1 (DNF),,Wurth Electronics,36907406S,DNF
-12,"Inductor, small symbol",L_Small,L2 L3,4.7u,Coilcraft_MSS1278T,2,,Coilcraft,MSS1278T-472MLD,
-13,"Inductor, small symbol",L_Small,L1,TDK MPZ2012S221A,L_0805,1,,TDK,MPZ2012S221A,
-14,"Resistor, small symbol",R_Small,R42 R43,0,R_0603,2,,Vishay/Dale,CRCW06030000Z0EAC,
-15,"Resistor, small symbol",R_Small,R7 R24,15k,R_0603,2,,Susumu,RR0816P-153-D,
-16,"Resistor, small symbol",R_Small,R3 R8 R9 R10 R36,1M,R_0603,5,,Panasonic,ERJ-3RED1004V,
-17,"Resistor, small symbol",R_Small,R11 R12 R13 R14 R15 R17 R20 R21 R25 R28 R29 R30 R31 R32 R38 R39,1k,R_0603,16,,Susumu,RR0816P-102-D,
-18,"Resistor, small symbol",R_Small,R35,243k,R_0603,1,,Susumu,RR0816P-2433-D-38D,
-19,"Resistor, small symbol",R_Small,R1 R2,2k,R_0603,2,,Susumu,RR0816P-202-D,
-20,"Resistor, small symbol",R_Small,R23 R27,3k,R_0603,2,,Susumu,RR0816P-302-D,
-21,"Resistor, small symbol",R_Small,R4 R5 R6 R18 R19 R22 R33 R37,49.9,R_1210,8,,Yageo,RC1210FR-0749R9L,
-22,"Resistor, small symbol",R_Small,R34,52.3k,R_0603,1,,Susumu,RR0816P-5232-D-70C,
-23,"Resistor, small symbol",R_Small,R16 R26,6.98k,R_0603,2,,Susumu,RR0816P-6981-D-82H,
-24,"Resistor, small symbol",R_Small,R40 R41,DNF,R_0603,2 (DNF),,,,DNF
+1,"Unpolarized capacitor, small symbol",C_Small,C7 C8 C9 C10 C11 C12 C14 C15 C31,100n,C_0603_1608Metric,9,,Wurth Electronics,885012206071,
+2,"Unpolarized capacitor, small symbol",C_Small,C3 C4 C29,10n,C_0603_1608Metric,3,,TDK,CGA3E2C0G1H103J080AA,
+3,"Unpolarized capacitor, small symbol",C_Small,C32,10p,C_0603_1608Metric,1,,Wurth Electronics,885012006051,
+4,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C5 C6,10u,C_1210_3225Metric,4,,Murata,GCM32EL8EH106KA07L,
+5,"Unpolarized capacitor, small symbol",C_Small,C30,1u,C_0805_2012Metric,1,,Taiyo Yuden,UMK212B7105KG-T,
+6,"Unpolarized capacitor, small symbol",C_Small,C13 C16,33p (C0G),C_0603_1608Metric,2,,Yageo,CC0603GRNPO9BN330,
+7,"Unpolarized capacitor, small symbol",C_Small,C26 C27 C28,4.7u,C_0805_2012Metric,3,,Taiyo Yuden,UMK212BBJ475KG-T,
+8,"Unpolarized capacitor, small symbol",C_Small,C33,47u,C_1210_3225Metric,1,,Taiyo Yuden,EMK325BJ476MM-P,
+9,"Ferrite bead, small symbol",Ferrite_Bead_Small,FB1,TDK MPZ2012S221A,L_0805_2012Metric,1,,TDK,MPZ2012S221A,
+10,"Connector Europe 64 contacts, ranges A,B,C",C64AC,J1,C64AC,Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows,1 (DNF),,Harting,09 03 164 2919,DNF
+11,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3 J4 J5 J6 J7 J8 J9 J10 J11 J12 J13 J14 J15 J16 J17 J18,PD_In_1,SMA_Amphenol_901-144_Vertical,16,,Amphenol,901-144-8RFX,
+12,One-piece EMI RF shielding cabinet,RF_Shield_One_Piece,J2,RF_Shield_One_Piece DNF,Laird_Technologies_BMI-S-107_44.37x44.37mm,1 (DNF),,Wurth Electronics,36907406S,DNF
+13,"Inductor, small symbol",L_Small,L2 L3,4.7u,Coilcraft_MSS1278T,2,,Coilcraft,MSS1278T-472MLD,
+14,"Resistor, small symbol",R_Small,R42 R43,0,R_0603_1608Metric,2,,Vishay/Dale,CRCW06030000Z0EAC,
+15,"Resistor, small symbol",R_Small,R7 R24,15k,R_0603_1608Metric,2,,Susumu,RR0816P-153-D,
+16,"Resistor, small symbol",R_Small,R3 R8 R9 R10 R36,1M,R_0603_1608Metric,5,,Panasonic,ERJ-3RED1004V,
+17,"Resistor, small symbol",R_Small,R11 R12 R13 R14 R15 R17 R20 R21 R25 R28 R29 R30 R31 R32 R38 R39,1k,R_0603_1608Metric,16,,Susumu,RR0816P-102-D,
+18,"Resistor, small symbol",R_Small,R35,243k,R_0603_1608Metric,1,,Susumu,RR0816P-2433-D-38D,
+19,"Resistor, small symbol",R_Small,R1 R2,2k,R_0603_1608Metric,2,,Susumu,RR0816P-202-D,
+20,"Resistor, small symbol",R_Small,R23 R27,3k,R_0603_1608Metric,2,,Susumu,RR0816P-302-D,
+21,"Resistor, small symbol",R_Small,R4 R5 R6 R18 R19 R22 R33 R37,49.9,R_1210_3225Metric,8,,Yageo,RC1210FR-0749R9L,
+22,"Resistor, small symbol",R_Small,R34,52.3k,R_0603_1608Metric,1,,Susumu,RR0816P-5232-D-70C,
+23,"Resistor, small symbol",R_Small,R16 R26,6.98k,R_0603_1608Metric,2,,Susumu,RR0816P-6981-D-82H,
+24,"Resistor, small symbol",R_Small,R40 R41,DNF,R_0603_1608Metric,2 (DNF),,,,DNF
 25,StemLab RedPitaya 14bit,RedPitaya_125-14,RP1,RedPitaya_125-14,RedPitaya_125-14,1,,Samtec,ESQ-113-44-T-D,
-26,"5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x05,SW1,Gain1,SW_DIP_x5_W7.62mm_Piano,1,~,Omron Electronics,A6FR-5104,
-27,"5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x05,SW2,Gain2,SW_DIP_x5_W7.62mm_Piano,1,~,Omron Electronics,A6FR-5104,
-28,"Dual 150mA, Positive/Negative Low Noise, Low Dropout Linear Regulator, Fixed Output",LT3032-X,U1,LT3032-12,Linear_DE14MA,1,https://cds.linear.com/docs/en/datasheet/3032ff.pdf,Analog Devices,LT3032EDE-12#PBF,
-29,,LT8610,U9,LT8610,MSOP-16-1EP_3x4mm_Pitch0.5mm,1,,Analog Devices,LT8610EMSE#PBF,
-30,Dual Power Op amp,OPA1602,U2 U5,OPA1602,SOIC-8_3.9x4.9mm_Pitch1.27mm,2,http://www.st.com/content/ccc/resource/technical/document/datasheet/02/9c/bc/75/59/9c/47/bd/CD00000054.pdf/files/CD00000054.pdf/jcr:content/translations/en.CD00000054.pdf,Texas Instruments,OPA1602AIDR,
-31,Quad Op amp.,OPA1604,U3 U4,OPA1604,SOIC-14_3.9x8.7mm_Pitch1.27mm,2,,Texas Instruments,OPA1604AIDR,
+26,"5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x05,SW1,Gain1,SW_DIP_SPSTx05_Piano_10.8x14.26mm_W7.62mm_P2.54mm,1,~,Omron Electronics,A6FR-5104,
+27,"5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x05,SW2,Gain2,SW_DIP_SPSTx05_Piano_10.8x14.26mm_W7.62mm_P2.54mm,1,~,Omron Electronics,A6FR-5104,
+28,"150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 12V Output, DFN-14",LT3032-12,U1,LT3032-12,Linear_DE14MA,1,https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf,Analog Devices,LT3032EDE-12#PBF,
+29,,LT8610,U9,LT8610,MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm,1,,Analog Devices,LT8610EMSE#PBF,
+30,Dual Power Op amp,OPA1602,U2 U5,OPA1602,SOIC-8_3.9x4.9mm_P1.27mm,2,http://www.st.com/content/ccc/resource/technical/document/datasheet/02/9c/bc/75/59/9c/47/bd/CD00000054.pdf/files/CD00000054.pdf/jcr:content/translations/en.CD00000054.pdf,Texas Instruments,OPA1602AIDR,
+31,Quad Op amp.,OPA1604,U3 U4,OPA1604,SOIC-14_3.9x8.7mm_P1.27mm,2,,Texas Instruments,OPA1604AIDR,
 
 
 
@@ -43,6 +43,6 @@ Total components:,93
 Schematic Version:,1.4
 Schematic Date:,2020-09-28
 PCB Variant:,"""default"""
-BoM Date:,28.09.2020 20:55:46
+BoM Date:,28.09.2020 22:27:02
 Schematic Source:,C:\Users\Tilman Preuschoff\Documents\GitHub\RedPitaya-IntStab\pcb\KiCad\RedPitaya_IntStab.sch
 KiCad Version:,Eeschema (5.1.5)-3
