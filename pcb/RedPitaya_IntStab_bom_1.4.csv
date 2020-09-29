@@ -7,7 +7,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 6,"Unpolarized capacitor, small symbol",C_Small,C13 C16,33p (C0G),C_0603_1608Metric,2,,Yageo,CC0603GRNPO9BN330,
 7,"Unpolarized capacitor, small symbol",C_Small,C26 C27 C28,4.7u,C_0805_2012Metric,3,,Taiyo Yuden,UMK212BBJ475KG-T,
 8,"Unpolarized capacitor, small symbol",C_Small,C33,47u,C_1210_3225Metric,1,,Taiyo Yuden,EMK325BJ476MM-P,
-9,"Ferrite bead, small symbol",Ferrite_Bead_Small,FB1,TDK MPZ2012S221A,L_0805_2012Metric,1,,TDK,MPZ2012S221A,
+9,"Ferrite bead, small symbol",Ferrite_Bead_Small,FB1,TDK MPZ2012S221A,L_0805_2012Metric,1,,TDK,MPZ2012S221AT000,
 10,"Connector Europe 64 contacts, ranges A,B,C",C64AC,J1,C64AC,Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows,1 (DNF),,Harting,09031646921,DNF
 11,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3 J4 J5 J6 J7 J8 J9 J10 J11 J12 J13 J14 J15 J16 J17 J18,PD_In_1,SMA_Amphenol_901-144_Vertical,16,,Amphenol,901-144-8RFX,
 12,One-piece EMI RF shielding cabinet,RF_Shield_One_Piece,J2,RF_Shield_One_Piece DNF,Laird_Technologies_BMI-S-107_44.37x44.37mm,1 (DNF),,Wurth Electronics,36907406S,DNF
@@ -43,5 +43,5 @@ Total components:,93
 Schematic Version:,1.4
 Schematic Date:,2020-09-28
 PCB Variant:,"""default"""
-BoM Date:,2020-09-29T01:11:31 CEST
+BoM Date:,2020-09-29T23:30:38 CEST
 KiCad Version:,Eeschema 5.1.6
