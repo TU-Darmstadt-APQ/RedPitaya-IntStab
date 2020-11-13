@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "RedPitaya IntStab: +/-12V,+5V Supply"
-Date "2020-09-28"
-Rev "1.4"
+Date "2020-11-13"
+Rev "1.4.1"
 Comp "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
