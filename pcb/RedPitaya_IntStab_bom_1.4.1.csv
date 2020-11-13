@@ -8,7 +8,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 7,"Unpolarized capacitor, small symbol",C_Small,C26 C27 C28,4.7u,C_0805_2012Metric,3,,Taiyo Yuden,UMK212BBJ475KG-T,
 8,"Unpolarized capacitor, small symbol",C_Small,C33,47u,C_1210_3225Metric,1,,Taiyo Yuden,EMK325BJ476MM-P,
 9,"Ferrite bead, small symbol",Ferrite_Bead_Small,FB1,TDK MPZ2012S221A,L_0805_2012Metric,1,,TDK,MPZ2012S221AT000,
-10,"Connector Europe 64 contacts, ranges A,B,C",C64AC,J1,C64AC,Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows,1 (DNF),,Harting,09031646921,DNF
+10,"Connector Europe 64 contacts, ranges A,B,C",C64AC,J1,C64AC,Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows,1,,Harting,09031646921,
 11,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J6,Ctrl_In_1,SMA_Amphenol_901-144_Vertical,1,,Amphenol,901-144-8RFX,
 12,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J12,Ctrl_In_2,SMA_Amphenol_901-144_Vertical,1,,Amphenol,901-144-8RFX,
 13,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J11,Ctrl_Out_1,SMA_Amphenol_901-144_Vertical,1,,Amphenol,901-144-8RFX,

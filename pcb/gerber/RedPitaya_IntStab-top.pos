@@ -1,5 +1,5 @@
-### Module positions - created on Tue Sep 29 01:19:27 2020 ###
-### Printed by Pcbnew version kicad 5.1.6
+### Module positions - created on 13.11.2020 16:54:30 ###
+### Printed by Pcbnew version kicad (5.1.2)-1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                      Package                                          PosX       PosY       Rot  Side
@@ -38,7 +38,7 @@ R4        49.9                     R_1210_3225Metric                            
 R5        49.9                     R_1210_3225Metric                            151.6000   -65.9750  270.0000  top
 R6        49.9                     R_1210_3225Metric                            151.5250   -52.0000  270.0000  top
 R7        15k                      R_0603_1608Metric                            202.1000  -112.1500    0.0000  top
-R8        1M                       R_0603_1608Metric                            163.4500   -65.0500   90.0000  top
+R8        1M                       R_0603_1608Metric                            163.4000   -65.9000   90.0000  top
 R9        1M                       R_0603_1608Metric                            186.9500   -51.0250   90.0000  top
 R10       1M                       R_0603_1608Metric                            163.4250   -52.2500  270.0000  top
 R11       1k                       R_0603_1608Metric                            193.6750  -124.2500    0.0000  top
@@ -74,6 +74,8 @@ R40       DNF                      R_0603_1608Metric                            
 R41       DNF                      R_0603_1608Metric                            112.1500   -49.6500  270.0000  top
 R42       0                        R_0603_1608Metric                            112.0500   -63.5500    0.0000  top
 R43       0                        R_0603_1608Metric                            112.4500   -53.5500    0.0000  top
+R44       1M                       R_0603_1608Metric                            139.7000   -66.5000  270.0000  top
+R45       1M                       R_0603_1608Metric                            139.6000   -51.9000  270.0000  top
 U1        LT3032-12                Linear_DE14MA                                 75.0500   -84.6500  180.0000  top
 U2        OPA1602                  SOIC-8_3.9x4.9mm_P1.27mm                     113.3000   -58.4250   90.0000  top
 U3        OPA1604                  SOIC-14_3.9x8.7mm_P1.27mm                    195.7500   -64.5900  180.0000  top
