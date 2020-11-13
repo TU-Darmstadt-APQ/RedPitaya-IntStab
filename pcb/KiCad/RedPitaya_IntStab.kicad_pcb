@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.6)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
@@ -3550,7 +3550,7 @@
     (fp_text reference J14 (at 0 -5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value GND (at 0 5 180) (layer F.SilkS)
+    (fp_text value Ctrl_Out_2 (at 0 5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.175 0) (layer F.Fab) (width 0.1))
@@ -5425,7 +5425,7 @@
     (arrow2b (pts (xy 73.806298 48.620331) (xy 74.604634 47.632627)))
   )
   (dimension 100 (width 0.3) (layer Dwgs.User) (tstamp 5F733D08)
-    (gr_text "100,000 mm" (at 215.529179 94.151901 90) (layer Dwgs.User) (tstamp 5F733D09)
+    (gr_text "100,000 mm" (at 215.529179 94.151901 90) (layer Dwgs.User) (tstamp 5F733D08)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 201.379179 44.151901) (xy 216.879179 44.151901)))

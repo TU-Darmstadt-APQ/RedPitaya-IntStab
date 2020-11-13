@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:RedPitaya_IntStab-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -545,7 +546,7 @@ L Connector:Conn_Coaxial J14
 U 1 1 5C9EE20A
 P 10900 4700
 F 0 "J14" H 10900 4850 50  0000 C CNN
-F 1 "GND" V 11000 4700 50  0000 C CNN
+F 1 "Ctrl_Out_2" V 11000 4700 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 10900 4700 50  0001 C CNN
 F 3 "" H 10900 4700 50  0001 C CNN
 F 4 "" H 10900 4700 50  0001 C CNN "Config"
