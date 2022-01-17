@@ -1,5 +1,5 @@
-### Module positions - created on 11/04/21 14:57:36 ###
-### Printed by Pcbnew version kicad (5.1.10)-1
+### Module positions - created on 01/17/22 20:36:36 ###
+### Printed by Pcbnew version kicad (5.1.9)-1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                      Package                                          PosX       PosY       Rot  Side
@@ -27,6 +27,8 @@ C30       1u                       C_0805_2012Metric                            
 C31       100n                     C_0603_1608Metric                            105.1500  -112.9500  270.0000  top
 C32       10p                      C_0603_1608Metric                            107.1500  -109.7500  180.0000  top
 C33       47u                      C_1210_3225Metric                             97.9500  -118.0500   90.0000  top
+D1        SMBJ40CA                 D_SMB                                         77.3000  -129.3000    0.0000  top
+D2        SMBJ40CA                 D_SMB                                         76.4000   -54.8000  180.0000  top
 FB1       TDK_MPZ2012S221A         L_0805_2012Metric                             82.2500   -99.2500    0.0000  top
 J2        RF_Shield_One_Piece_DNF  Laird_Technologies_BMI-S-107_44.37x44.37mm    94.1500  -117.1500    0.0000  top
 L2        4.7u                     Coilcraft_MSS1278T                            80.7500  -108.2500  270.0000  top

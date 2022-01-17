@@ -1,0 +1,48 @@
+Component,Quantity Per PCB,References,Value,MFN,PN,Description,Footprint
+1,9,C7-C12 C14-C15 C31,100n,Kemet,C0603C104K5RECAUTO,"Unpolarized capacitor, small symbol",C_0603_1608Metric
+2,2,C17-C18,100u,Nichicon,UHV1V101MED,"Polarized capacitor, small symbol",CP_Radial_D6.3mm_P2.50mm
+3,3,C3-C4 C29,10n,TDK,CGA3E2C0G1H103J080AA,"Unpolarized capacitor, small symbol",C_0603_1608Metric
+4,1,C32,10p,Wurth Electronics,885012006051,"Unpolarized capacitor, small symbol",C_0603_1608Metric
+5,4,C1-C2 C5-C6,10u,Murata,GCM32EL8EH106KA07L,"Unpolarized capacitor, small symbol",C_1210_3225Metric
+6,1,C30,1u,Taiyo Yuden,UMK212B7105KG-T,"Unpolarized capacitor, small symbol",C_0805_2012Metric
+7,2,C13 C16,33p (C0G),Yageo,CC0603GRNPO9BN330,"Unpolarized capacitor, small symbol",C_0603_1608Metric
+8,3,C26-C28,4.7u,Taiyo Yuden,UMK212BBJ475KG-T,"Unpolarized capacitor, small symbol",C_0805_2012Metric
+9,1,C33,47u,Taiyo Yuden,EMK325BJ476MM-P,"Unpolarized capacitor, small symbol",C_1210_3225Metric
+10,2,D1-D2,SMBJ40CA,Bourns,SMBJ40CA-QH,Bidirectional transient-voltage-suppression diode,D_SMB
+11,1,FB1,TDK MPZ2012S221A,TDK,MPZ2012S221AT000,"Ferrite bead, small symbol",L_0805_2012Metric
+12,1,J1,C64AC,Harting,09031646921,"Connector Europe 64 contacts, ranges A,B,C",Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows
+13,16,J3-J18,PD_In_1,Amphenol,901-144-8RFX,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",SMA_Amphenol_901-144_Vertical
+14,2,L2-L3,4.7u,Coilcraft,MSS1278T-472MLD,"Inductor, small symbol",Coilcraft_MSS1278T
+15,2,R42-R43,0,Vishay/Dale,CRCW06030000Z0EAC,"Resistor, small symbol",R_0603_1608Metric
+16,2,R7 R24,15k,Susumu,RR0816P-153-D,"Resistor, small symbol",R_0603_1608Metric
+17,7,R3 R8-R10 R36 R44-R45,1M,Panasonic,ERJ-3RED1004V,"Resistor, small symbol",R_0603_1608Metric
+18,16,R11-R15 R17 R20-R21 R25 R28-R32 R38-R39,1k,Susumu,RR0816P-102-D,"Resistor, small symbol",R_0603_1608Metric
+19,1,R35,243k,Susumu,RR0816P-2433-D-38D,"Resistor, small symbol",R_0603_1608Metric
+20,2,R1-R2,2k,Susumu,RR0816P-202-D,"Resistor, small symbol",R_0603_1608Metric
+21,2,R23 R27,3k,Susumu,RR0816P-302-D,"Resistor, small symbol",R_0603_1608Metric
+22,8,R4-R6 R18-R19 R22 R33 R37,49.9,Yageo,RC1210FR-0749R9L,"Resistor, small symbol",R_1210_3225Metric
+23,1,R34,52.3k,Susumu,RR0816P-5232-D-70C,"Resistor, small symbol",R_0603_1608Metric
+24,2,R16 R26,6.98k,Susumu,RR0816P-6981-D-82H,"Resistor, small symbol",R_0603_1608Metric
+25,1,RP1,RedPitaya_125-14,Samtec,ESQ-113-44-T-D,StemLab RedPitaya 14bit,RedPitaya_125-14
+26,1,SW1,Gain1,Omron Electronics,A6FR-5104,"5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_SPSTx05_Piano_10.8x14.26mm_W7.62mm_P2.54mm
+27,1,SW2,Gain2,Omron Electronics,A6FR-5104,"5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_SPSTx05_Piano_10.8x14.26mm_W7.62mm_P2.54mm
+28,1,U1,LT3032-12,Analog Devices,LT3032EDE-12#PBF,"150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 12V Output, DFN-14",Linear_DE14MA
+29,1,U9,LT8610,Analog Devices,LT8610EMSE#PBF,,MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm
+30,2,U2 U5,OPA1602,Texas Instruments,OPA1602AIDR,Dual Power Op amp,SOIC-8_3.9x4.9mm_P1.27mm
+31,2,U3-U4,OPA1604,Texas Instruments,OPA1604AIDR,Quad Op amp.,SOIC-14_3.9x8.7mm_P1.27mm
+
+
+
+
+
+Component Groups:,38
+Component Count:,118
+Fitted Components:,100
+Number of PCBs:,1
+Total components:,100
+Schematic Version:,1.5.1
+Schematic Date:,2022-01-17
+PCB Variant:,[u'default']
+BoM Date:,17.01.2022 21:01:15
+Schematic Source:,C:\Users\Tilman Preuschoff\Documents\GitHub\RedPitaya-IntStab\pcb\KiCad\RedPitaya_IntStab.sch
+KiCad Version:,Eeschema (5.1.9)-1
