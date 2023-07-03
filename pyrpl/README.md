@@ -1,6 +1,6 @@
 PyRPL
 ===================
-Use the RedPitaya with the open source software [PyRPL](https://github.com/lneuhaus/pyrpl)
+Use the RedPitaya with the open source software [PyRPL](https://github.com/lneuhaus/pyrpl).
 
 Installation
 --------------------
