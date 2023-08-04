@@ -27,6 +27,8 @@ Review of Scientific Instruments 91, 083001 (2020); [https://doi.org/10.1063/5.0
 
 arXiv:2009.00343 [physics.ins-det]; [https://arxiv.org/abs/2009.00343](https://arxiv.org/abs/2009.00343)
 
+T. Preuschoff, *Laser Technologies for Applications in Quantum Information Science*, Ph.D. thesis, TU Darmstadt, 2023, [https://tuprints.ulb.tu-darmstadt.de/23242/](https://tuprints.ulb.tu-darmstadt.de/23242/)
+
 Requirements
 --------------
 - RedPitaya StemLab 125-14 board: Remove the noisy [DC-offsets](https://ln1985blog.wordpress.com/2016/02/07/red-pitaya-dac-performance/).
