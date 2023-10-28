@@ -19,8 +19,8 @@ on:
       - published
 
 env:
-  SCHEMATIC_FILE: pcb/KiCad/RedPitaya_Lockbox.kicad_sch
-  PCB_FILE: pcb/KiCad/RedPitaya_Lockbox.kicad_pcb
+  SCHEMATIC_FILE: pcb/KiCad/RedPitaya_IntStab.kicad_sch
+  PCB_FILE: pcb/KiCad/RedPitaya_IntStab.kicad_pcb
   KIBOT_CONFIG: pcb/KiCad/config.kibot.yaml
 
 jobs:
