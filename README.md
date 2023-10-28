@@ -1,3 +1,5 @@
+[![Build manufacturing files](https://github.com/TU-Darmstadt-APQ/RedPitaya-IntStab/actions/workflows/ci.yml/badge.svg)](https://github.com/TU-Darmstadt-APQ/RedPitaya-IntStab/actions/workflows/ci.yml)
+
 Digital Controller for Laser Intensity Stabilization
 ===================
 This repository contains the design of a digital controller for laser intensity stabilization based on the [RedPitaya STEMlab 125-14](https://www.redpitaya.com/f130/STEMlab-board) board. The design includes schematics and readily usable PCB layouts for an analog interface integrable in standard 19-inch rack mount units using the available front panel. We recommend to use the controller with the 'pids' module of the software package [PyRPL](https://github.com/lneuhaus/pyrpl). The devices features two independent, identical channels using only one Red Pitaya board.
