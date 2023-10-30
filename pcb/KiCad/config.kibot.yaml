@@ -6,6 +6,16 @@ preflight:
   run_erc: true
   update_xml: true
   ignore_unconnected: false
+  filters:
+    - filter: 'Ignore incomplete thermal relief connections'
+      error: starved_thermal
+      regex: 'Thermal relief connection to zone incomplete'
+    - filter: 'Ignore modified footprints'
+      error: lib_footprint_mismatch
+      regex: 'does not match copy in library'
+    - filter: 'Ignore silkscreen clipped by edge cuts (e.g.: Dip-switches, J1)'
+      error: silk_edge_clearance
+      regex: 'Silkscreen clipped by board edge'
 
 variants:
   - name: 'default'
