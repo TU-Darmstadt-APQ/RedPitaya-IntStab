@@ -7,7 +7,7 @@ All files necessary to build and modify the analog interface for the controller.
 
 KiCad
 -------
-[Kicad v. 5.1](https://www.kicad-pcb.org/) design files. Use the files to customize the design.
+[KiCad7](https://www.kicad.org/) design files. Use the files to customize the design.
 
 Gerber
 -------
