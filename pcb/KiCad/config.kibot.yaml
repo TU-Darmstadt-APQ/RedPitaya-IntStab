@@ -7,12 +7,9 @@ preflight:
   update_xml: true
   ignore_unconnected: false
   filters:
-    - filter: 'Ignore incomplete thermal relief connections'
-      error: starved_thermal
-      regex: 'Thermal relief connection to zone incomplete'
-    - filter: 'Ignore modified footprints'
+    - filter: 'Custom 3D models were added to the footprints'
       error: lib_footprint_mismatch
-      regex: 'does not match copy in library'
+      regex: 'SMA_Amphenol_901-144_Vertical|Coilcraft_MSS1278T|MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm|DIN41612_C_2x32_Male_Horizontal_THT'
     - filter: 'Ignore silkscreen clipped by edge cuts (e.g.: Dip-switches, J1)'
       error: silk_edge_clearance
       regex: 'Silkscreen clipped by board edge'
