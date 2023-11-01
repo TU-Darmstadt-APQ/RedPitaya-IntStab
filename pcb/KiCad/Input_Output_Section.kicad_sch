@@ -4221,7 +4221,7 @@
     (property "Datasheet" "~" (at 166.37 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFN" "Omron Electronics " (at 166.37 129.54 0)
+    (property "MFN" "Omron Electronics" (at 166.37 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "PN" "A6FR-5104" (at 166.37 129.54 0)
