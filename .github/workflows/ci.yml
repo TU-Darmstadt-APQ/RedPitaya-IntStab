@@ -54,7 +54,7 @@ jobs:
         shell: bash
 
       - name: Test if the revision number was extracted
-        if: steps.extract_sch_revision.outputs.revision == ''
+        if: steps.extract_sch_revision.outputs.value == ''
         run: |
           echo "::error::Failed to extract revision number from schematic file: ${{ env.SCHEMATIC_FILE }}"
           exit 1
