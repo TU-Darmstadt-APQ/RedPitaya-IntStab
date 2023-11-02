@@ -7,11 +7,11 @@ All files necessary to build and modify the analog interface for the controller.
 
 KiCad
 -------
-[KiCad7](https://www.kicad.org/) design files. Use the files to customize the design.
+[KiCad 7](https://www.kicad.org/) design files. Use the files to customize the design.
 
 Gerber
 -------
-Use the gerber files in this folder to reproduce the design without any changes. Let your PCB manufacturer place the standard SMD components.
+The lastest gerber to reproduce the design without any changes can be found [here](../../../releases/latest). Let your PCB manufacturer place the standard SMD components.
 
 
 BOM
