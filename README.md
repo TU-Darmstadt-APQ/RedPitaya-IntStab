@@ -25,14 +25,14 @@ The controller features:
 
 Design Files
 ------------------
-The design files can be found on the [releases](releases) page and include the following resources:
+The design files can be found on the [releases](../../releases) page and include the following resources:
 
 - Schematics as a PDF
 - Gerber files
 - Pick & place position files
 - Bill of materials as a CSV and alsoo as an interactive HTML version
 
-The latest revision of those files can be found [here](releases/latest).
+The latest revision of those files can be found [here](../../releases/latest).
 
 Related Work
 --------------------
