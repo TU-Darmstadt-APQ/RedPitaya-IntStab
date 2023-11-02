@@ -94,7 +94,7 @@ outputs:
     options:
       format: CSV
       conf: 'bom.ini'
-      output: '%sp_%I_%sr_(%V).%x'  # Note: The %v replacement is broken, so use _(%V) for now
+      output: '%f_%I_%sr_(%V).%x'  # Note: The %v replacement is broken, so use _(%V) for now
     output_id: 'bom'  # Used for the %I expansion int the output file name
 
   - name: 'iBOM'
@@ -105,7 +105,7 @@ outputs:
       dark_mode: false
       blacklist: 'LOGO*,TP*,H*'
       extra_fields: 'PN'
-      output: '%sp_%I_%sr%v.%x'
+      output: '%f_%I_%sr%v.%x'
       highlight_pin1: true
     output_id: 'ibom'  # Used for the %I expansion int the output file name
 
