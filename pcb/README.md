@@ -11,7 +11,7 @@ KiCad
 
 Gerber
 -------
-The lastest gerber to reproduce the design without any changes can be found [here](../../../releases/latest). Let your PCB manufacturer place the standard SMD components.
+The lastest Gerber files to reproduce the design without any changes can be found [here](../../../releases/latest). Let your PCB manufacturer place the standard SMD components.
 
 
 BOM

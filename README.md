@@ -30,7 +30,7 @@ The design files can be found on the [releases](../../releases) page and include
 - Schematics as a PDF
 - Gerber files
 - Pick & place position files
-- Bill of materials as a CSV and alsoo as an interactive HTML version
+- Bill of materials as a CSV file and also as an interactive HTML version
 
 The latest revision of those files can be found [here](../../releases/latest).
 
