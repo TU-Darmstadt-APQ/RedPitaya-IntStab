@@ -6,7 +6,7 @@
 
   (title_block
     (title "RedPitaya IntStab: +/-12V,+5V Supply")
-    (date "2023-10-30")
+    (date "2023-11-02")
     (rev "1.5.2")
     (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")

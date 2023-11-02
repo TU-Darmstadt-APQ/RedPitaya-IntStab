@@ -6,7 +6,7 @@
 
   (title_block
     (title "RedPitaya IntStab: +/-12V,+5V Supply")
-    (date "2023-10-30")
+    (date "2023-11-02")
     (rev "1.5.2")
     (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
@@ -1325,7 +1325,7 @@
           (effects (font (size 1.524 1.524)))
         )
       )
-      (symbol "RedPitaya_125-14_0_1"
+      (symbol "RedPitaya_125-14_1_1"
         (polyline
           (pts
             (xy -11.43 -29.21)
@@ -1335,10 +1335,8 @@
             (xy -11.43 -29.21)
           )
           (stroke (width 0) (type solid))
-          (fill (type none))
+          (fill (type background))
         )
-      )
-      (symbol "RedPitaya_125-14_1_1"
         (pin passive line (at -15.24 13.97 0) (length 3.81)
           (name "DIO3_N" (effects (font (size 1.27 1.27))))
           (number "10_1" (effects (font (size 1.27 1.27))))

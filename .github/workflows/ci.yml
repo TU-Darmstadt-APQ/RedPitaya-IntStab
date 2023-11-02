@@ -199,8 +199,8 @@ jobs:
       - name: Append position files as asset
         if: github.event.action == 'published'
         run: |
-          mv "./manufacturing_files/gerber_files/pos_(${{ matrix.variant }}).zip" ${{ needs.tests.outputs.basename }}_position_files_${{ needs.tests.outputs.revision }}_${{ matrix.variant }}.zip
-          gh release upload ${{ github.ref_name }} ${{ needs.tests.outputs.basename }}_position_files_${{ needs.tests.outputs.revision }}_${{ matrix.variant }}.zip#"Pick & Place position files for the ${{ matrix.variant }} variant (zip)" --repo ${{ github.repository }}
+          mv "./manufacturing_files/gerber_files/pos_(${{ matrix.variant }}).zip" ${{ needs.tests.outputs.basename }}_position_${{ needs.tests.outputs.revision }}_${{ matrix.variant }}.zip
+          gh release upload ${{ github.ref_name }} ${{ needs.tests.outputs.basename }}_position_${{ needs.tests.outputs.revision }}_${{ matrix.variant }}.zip#"Pick & Place position files for the ${{ matrix.variant }} variant (zip)" --repo ${{ github.repository }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
@@ -208,8 +208,8 @@ jobs:
       - name: Append Gerber files as asset
         if: github.event.action == 'published' && matrix.variant == 'default'
         run: |
-          mv "./manufacturing_files/gerber_files/gerbers.zip" ${{ needs.tests.outputs.basename }}_gerber_files_${{ needs.tests.outputs.revision }}_all.zip
-          gh release upload ${{ github.ref_name }} ${{ needs.tests.outputs.basename }}_gerber_files_${{ needs.tests.outputs.revision }}_all.zip#"Gerber files for all variants (zip)" --repo ${{ github.repository }}
+          mv "./manufacturing_files/gerber_files/gerbers.zip" ${{ needs.tests.outputs.basename }}_gerber_${{ needs.tests.outputs.revision }}_all.zip
+          gh release upload ${{ github.ref_name }} ${{ needs.tests.outputs.basename }}_gerber_${{ needs.tests.outputs.revision }}_all.zip#"Gerber files for all variants (zip)" --repo ${{ github.repository }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
