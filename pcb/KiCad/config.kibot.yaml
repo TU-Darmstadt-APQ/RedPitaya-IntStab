@@ -13,6 +13,9 @@ preflight:
     - filter: 'Ignore silkscreen clipped by edge cuts (e.g.: Dip-switches, J1)'
       error: silk_edge_clearance
       regex: 'Silkscreen clipped by board edge'
+    - filter: 'Solder jumper do not work well with zone fills'
+      error: clearance
+      regex: '(?s)Polygon.*Zone'  # (?s) = enable dotall mode
 
 variants:
   - name: 'default'
