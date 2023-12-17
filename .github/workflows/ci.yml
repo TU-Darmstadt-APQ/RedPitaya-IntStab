@@ -75,8 +75,6 @@ jobs:
     steps:
       - name: Download repository
         uses: actions/checkout@v4
-        with:
-          submodules: true
 
       - name: Run ERC
         uses: INTI-CMNB/KiBot@v2_k7
@@ -101,8 +99,6 @@ jobs:
     steps:
       - name: Download repository
         uses: actions/checkout@v4
-        with:
-          submodules: true
 
       - name: Run DRC
         uses: INTI-CMNB/KiBot@v2_k7
@@ -127,10 +123,16 @@ jobs:
       matrix:
         variant: [ 'default' ]
     steps:
-      - name: Download repository
-        uses: actions/checkout@v4
+      - name: Download manufacturing files artifact
+        uses: actions/download-artifact@v4
         with:
-          submodules: true
+          path: artifacts
+
+      - name: Merge artifacts
+        run: |
+          mkdir ./manufacturing_files
+          mv artifacts/*/* ./manufacturing_files
+        shell: bash
 
       - uses: INTI-CMNB/KiBot@v2_k7
         with:
