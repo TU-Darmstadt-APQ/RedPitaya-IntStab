@@ -123,16 +123,8 @@ jobs:
       matrix:
         variant: [ 'default' ]
     steps:
-      - name: Download manufacturing files artifact
-        uses: actions/download-artifact@v4
-        with:
-          path: artifacts
-
-      - name: Merge artifacts
-        run: |
-          mkdir ./manufacturing_files
-          mv artifacts/*/* ./manufacturing_files
-        shell: bash
+      - name: Download repository
+        uses: actions/checkout@v4
 
       - uses: INTI-CMNB/KiBot@v2_k7
         with:
@@ -173,7 +165,13 @@ jobs:
       - name: Download manufacturing files artifact
         uses: actions/download-artifact@v4
         with:
-          path: ./manufacturing_files
+          path: artifacts
+
+      - name: Merge artifacts
+        run: |
+          mkdir ./manufacturing_files
+          mv artifacts/*/* ./manufacturing_files
+        shell: bash
 
       - name: Display structure of downloaded files
         run: ls -R
