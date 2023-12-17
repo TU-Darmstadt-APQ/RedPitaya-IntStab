@@ -146,19 +146,19 @@ jobs:
       - name: Upload bill of materials files as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: bom
+          name: bom-${{ matrix.variant }}
           path: bom_files_compressed
 
       - name: Upload schematic files as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: schematics
+          name: schematics-${{ matrix.variant }}
           path: schematics
 
       - name: Upload schematic files as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: gerber_files
+          name: gerber_files-${{ matrix.variant }}
           path: gerber_files_compressed
 
   release:
