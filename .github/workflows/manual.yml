@@ -1,0 +1,54 @@
+name: 'Build manual'
+on:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'manual/**'
+      - '.github/workflows/manual.yml'
+    # Ignore the push event when creating tags
+    tags-ignore:
+      - '[0-9]+.[0-9]+.[0-9]+'
+  release:
+    types:
+      - published
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        tex_file:
+          - { name: 'manual/manual', output: 'manual/manual', description: 'Red Pitaya Intstab manual (pdf)' }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build PDF
+        uses: ./.github/actions/build
+        id: pdf-filename
+        with:
+          tex-filename: ${{ matrix.tex_file.name }}
+          output-filename: ${{ matrix.tex_file.output }}
+
+      - name: Parse base name from filename
+        id: pdf-basename
+        run: |
+          echo "value=$(basename ${{ steps.pdf-filename.outputs.value }})" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: Upload PDF as artifact if not publishing
+        if: github.event.action != 'published'
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF-${{ steps.pdf-basename.outputs.value }}
+          path: ${{ steps.pdf-filename.outputs.value }}.pdf
+          retention-days: 7
+
+      - name: Append PDF as an asset
+        if: github.event.action == 'published'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload ${{ github.ref_name }} ${{ steps.pdf-filename.outputs.value }}.pdf#"${{ matrix.tex_file.description }} --repo ${{ github.repository }}
+        shell: bash

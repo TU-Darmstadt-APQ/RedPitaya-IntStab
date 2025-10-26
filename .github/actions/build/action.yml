@@ -1,0 +1,28 @@
+name: "Build PDFs"
+inputs:
+  tex-filename:
+     required: true
+     description: "The base name of the input  tex file without the .tex extension."
+
+  output-filename:
+    required: true
+    description: "The base name of the output PDF file without the .pdf extension."
+
+outputs:
+  value:
+    description: "Mirrors the output filename"
+    value: ${{ inputs.output-filename }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Run LaTex in a Docker container
+      uses: docker://texlive/texlive:TL2024-historic
+      with:
+        entrypoint: latexmk
+        args: -lualatex -cd ${{ inputs.tex-filename }}.tex
+
+    - name: Rename PDF if a different output filename was set
+      if: ${{ inputs.tex-filename != inputs.output-filename }}
+      run: mv ${{ inputs.tex-filename }}.pdf ${{ inputs.output-filename }}.pdf
+      shell: bash
