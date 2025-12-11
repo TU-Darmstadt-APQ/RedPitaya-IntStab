@@ -144,7 +144,23 @@ The RedPitaya lockbox is mounted in a 19-inch Fischer rack mount unit with our s
 \section{Setting up the software}
 
 \index{PyRPL}\marginlabel{Install PyRPL} 
-The RedPitaya is operated with the Python software package PyRPL. You need a proper Python installation in order to run the software. For Windows OS, use \href{https://www.anaconda.com/}{Anaconda Python}. Create a virtual environment for PyRPL. Get \textit{pyrpl-env.yaml} from \href{https://github.com/TU-Darmstadt-APQ/RedPitaya-IntStab/tree/master/pyrpl}{https://github.com/TU-Darmstadt-APQ/RedPitaya-IntStab/tree/ master/pyrpl} and run (in the directory of the file)
+The RedPitaya is operated with the Python software package PyRPL. You need a proper Python installation in order to run the software. For Windows OS, use \href{https://www.anaconda.com/}{Anaconda Python}. Create a virtual environment for PyRPL. The whole process is outdated, so to begin, an auxiliary environment is created. Some of the packages used require older versions of Python and Anaconda, starting with Python version 3.11 and Anaconda-Navigator 2.4.0 is recommended. To create the correct environment, run
+
+\begin{tcolorbox}
+	\begin{verbatim}
+		conda create -n pyrpl python=3.9 numpy=1.19
+		  pyqtgraph=0.12 pandas=1.3 scipy paramiko nose pip 
+		  pyqt qtpy=1.9.0 pyyaml ipywidgets notebook
+		conda activate pyrpl
+		pip uninstall pyopenssl cryptography
+		pip install pyopenssl==22.0.0 cryptography==36.0.2
+		pip install quamash
+		pip install scp
+	\end{verbatim}
+\end{tcolorbox}
+
+
+Get \textit{pyrpl-env.yaml} from \href{https://github.com/TU-Darmstadt-APQ/RedPitaya-IntStab/tree/master/pyrpl}{https://github.com/TU-Darmstadt-APQ/RedPitaya-IntStab/tree/ master/pyrpl} and run (in the directory of the file)
 
 \begin{tcolorbox}
 	\begin{verbatim}
