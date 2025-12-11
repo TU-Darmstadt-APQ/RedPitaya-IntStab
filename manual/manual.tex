@@ -23,10 +23,10 @@
 \DeclareRobustCommand\cs[1]{\texttt{\char`\\#1}}
 
 \title{RedPitaya IntStab -- Manual\\
-	\textit{\normalsize{Latest board revision 1.5.1}}}
-\author{Tilman Preuschoff}
+	\textit{\normalsize{Latest board revision 1.5.2}}}
+\author{Tilman Preuschoff\\Jan Henning}
 
-\date{Last modified: 03.07.2023}
+\date{Last modified: 28.10.2025}
 \emergencystretch1em  % F"ur TeX <3.0 auskommentieren!
 
 
@@ -193,7 +193,7 @@ Clone or download the branch 'external\_pid\_pause' from \href{https://github.co
 \end{tcolorbox}
 
 It might be necessary to install certain Microsoft Visual Studio C++ tools in order to install the packages. \\
-\textbf{Note:} The branch 'external\_pid\_pause' is not the latest stable version of PyRPL. It will not be updated. If the sample and hold feature (see Section \ref{sec:pyrpl_settings})  is not used, consider installing the 'master' branch in a new environment. The environment created with the instructions above only works for the  'external\_pid\_pause' branch. 
+\textbf{Note:} The branch 'external\_pid\_pause' is not the latest stable version of PyRPL. It will not be updated. If the sample and hold feature (see Section ~\ref{sec:pyrpl_settings})  is not used, consider installing the 'master' branch in a new environment. The environment created with the instructions above only works for the  'external\_pid\_pause' branch. 
 
 \textbf{Known issues:}
 \begin{itemize}
@@ -350,7 +350,7 @@ The RedPitaya ADCs have considerable offsets and gain errors. The STEMlab softwa
 Determine the maximal (amplified) photodiode level using the 'PD Mon' output. Deactivate the PI and set the respective output to '\SI{1}{\volt}' (i.e. \SI{2}{\volt}) using the 'asg' module. Increase the 'gain' using the DIP switches if the value is below \SI{1}{\volt}. If possible, increase the power at the photodiode instead of increasing the gain. 
 
 \textbf{Note:}
-If the external loop gain is changed the PI parameters must be adapted (see Section \ref{sec:app_note} for details).
+If the external loop gain is changed the PI parameters must be adapted (see Section ~\ref{sec:app_note} for details).
 
 \index{I-gain}\marginlabel{I-gain}
 Choose a setpoint of approximately \SI{50}{\percent} of the maximal photodiode voltage. Set the P-gain to zero and increase the I-gain until the system start to oscillate. Use half of this I-gain as a starting point.
