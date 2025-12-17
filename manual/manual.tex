@@ -331,7 +331,7 @@ The pre configured example uses the 'pid' module to implement two independent PI
 PyRPL allows to set four digital filters as input filters for the PI. Use this feature if the bandwidth of the photodetector is much larger than the control bandwidth.
 
 \index{Sample and hold}\marginlabel{Sample and hold}
-The achievable transient times are limited by the bandwidth of the control loop. For applications that require control of the light fields on shorter time scales, such as short light pulses,the sample and hold featurecan be used. In order to do so, set 'pause\_gains' to 'pi' in the 'pid' module. The sample and hold feature can be activated manually by ticking the 'paused' checkbox. Note, that the features are only available if the branch 'external\_pid\_pause' is installed.
+The achievable transient times are limited by the bandwidth of the control loop. For applications that require control of the light fields on shorter time scales, such as short light pulses, the sample and hold feature can be used. In order to do so, set 'pause\_gains' to 'pi' in the 'pid' module. The sample and hold feature can be activated manually by ticking the 'paused' checkbox. Note, that the features are only available if the branch 'external\_pid\_pause' is installed.
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{fig/sample_and_hold_P.png}\\
