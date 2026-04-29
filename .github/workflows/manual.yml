@@ -40,7 +40,7 @@ jobs:
 
       - name: Upload PDF as artifact if not publishing
         if: github.event.action != 'published'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: PDF-${{ steps.pdf-basename.outputs.value }}
           path: ${{ steps.pdf-filename.outputs.value }}.pdf
